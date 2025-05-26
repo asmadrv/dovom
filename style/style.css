@@ -83,14 +83,14 @@ body {
 }
 .bgpg2 {
   background-color: #ffffff;
-
-  margin: 100px;
+  margin: auto;
 }
 .note1pg2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 
 .h2pg2 {
@@ -101,6 +101,7 @@ body {
 
 .main-desc {
   width: 570px;
+  text-align: center;
 }
 
 .p1pg2 {
@@ -108,12 +109,17 @@ body {
   font-size: 14px;
   font-family: IBM Plex Mono;
   letter-spacing: 1px;
+  line-height: 24px;
+  flex-grow: 1;
 }
 .design1pg2 {
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
-  margin: 150px;
+  margin: 150px 0;
+}
+.design1pg2 > * {
+  flex-basis: 50%;
 }
 .link1 {
   background-color: #fff6e9;
@@ -139,19 +145,14 @@ body {
   font-size: 34px;
   margin: 10px;
 }
-.link2 {
-  background-color: #ffa217;
-  padding: 15px;
-  margin: 40px 40px 200px 0;
-  border-radius: 5px;
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-  align-items: center;
-}
+
 .link2 > a {
   text-decoration: none;
   color: #ffffff;
+  background-color: #ffa217;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
 }
 .design2pg2 {
   display: flex;
